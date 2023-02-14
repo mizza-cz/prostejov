@@ -1,0 +1,17 @@
+.partners {
+  margin-top: 68px;
+  margin-bottom: 70px;
+  .container {
+    max-width: 1920px;
+  }
+  .slick-arrow {
+    display: none;
+  }
+  &__item {
+    img {
+      max-height: 80px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+}

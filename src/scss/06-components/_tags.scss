@@ -1,0 +1,32 @@
+.tags {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.tag {
+  text-transform: uppercase;
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  display: block;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+  padding: 7px 10px 4px 10px;
+  width: max-content;
+}
+.tag-primary {
+  color: var(--color-light);
+  background-color: var(--color-primary);
+}
+.tag-date {
+  color: var(--color-dark);
+  background-color: var(--color-gold);
+}
+.tag-grey {
+  background-color: rgba(158, 158, 158, 0.3);
+  color: var(--color-dark-grey);
+}
+.tag-dark {
+  color: var(--color-gold);
+  background-color: var(--color-dark);
+}

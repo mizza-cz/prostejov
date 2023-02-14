@@ -1,0 +1,108 @@
+.hp-board-section {
+  padding-top: 6px;
+  margin-bottom: 100px;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 40px;
+  }
+  &__table {
+    max-width: 580px;
+    @include media-breakpoint-down(xl) {
+      max-width: 100%;
+    }
+    @include media-breakpoint-down(sm) {
+      overflow-x: auto;
+
+      table {
+        width: 540px;
+      }
+    }
+    .prostejov {
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+    tr td:first-child,
+    th:first-child {
+      text-align: left;
+      padding-left: 18px;
+      padding-right: 18px;
+      font-weight: 700;
+    }
+
+    tr td:last-child,
+    th:last-child {
+      text-align: center;
+      padding-right: 24px;
+      padding-left: 12px;
+    }
+    tr td,
+    th {
+      text-align: center;
+      width: 30px;
+      padding-left: 28px;
+      padding-right: 28px;
+      border-bottom: 1px solid var(--color-lines);
+    }
+    th {
+      font-size: 18px;
+      font-weight: 700;
+      font-family: bebas-neue-by-fontfabric, sans-serif;
+      color: var(--color-blue-grey);
+      padding: 4px 8px 8px;
+      text-transform: uppercase;
+    }
+    td {
+      font-size: 14px;
+      padding-bottom: 8px;
+      padding-top: 8px;
+      line-height: 1.157;
+    }
+    th.team {
+      padding-left: 60px;
+    }
+    .team {
+      text-align: left;
+      width: 100%;
+      padding-left: 8px;
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration-color: transparent;
+        width: max-content;
+        &:hover {
+          text-decoration-color: inherit;
+        }
+      }
+      img,
+      svg {
+        display: inline-block;
+        width: 58px;
+        height: 40px;
+        object-fit: contain;
+        padding-right: 14px;
+      }
+    }
+  }
+  &__pub {
+    width: 100%;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.hp-board__news {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--color-lines);
+  .h3 {
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+  p {
+    max-width: 330px;
+    @include media-breakpoint-down(xl) {
+      max-width: 100%;
+    }
+  }
+}

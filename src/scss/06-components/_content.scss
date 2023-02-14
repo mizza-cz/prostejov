@@ -1,0 +1,59 @@
+.content {
+  &::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 700;
+}
+.o-content h1,
+.h1 {
+  font-size: 48px;
+  line-height: 1.103;
+  @include media-breakpoint-down(md) {
+    font-size: 32px;
+  }
+}
+.o-content h2,
+.h2 {
+  font-size: 32px;
+  line-height: 1.063;
+  @include media-breakpoint-down(md) {
+    font-size: 28px;
+  }
+}
+.o-content h3,
+.h3 {
+  font-size: 24px;
+  line-height: 1.083;
+  @include media-breakpoint-down(md) {
+    font-size: 20px;
+  }
+}
+.o-content h4,
+.h4 {
+  font-size: 20px;
+  line-height: 1.2;
+  @include media-breakpoint-down(md) {
+    font-size: 18px;
+  }
+}
+.p2 {
+  font-size: 14px;
+  line-height: 1.5;
+}
