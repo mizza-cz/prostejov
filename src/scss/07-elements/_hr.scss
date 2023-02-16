@@ -1,0 +1,10 @@
+hr {
+  background-color: var(--color-lines);
+  height: 1px;
+  padding: 0;
+  border: 0;
+  margin: 48px 0;
+  @include media-breakpoint-down(lg) {
+    margin: 24px 0;
+  }
+}

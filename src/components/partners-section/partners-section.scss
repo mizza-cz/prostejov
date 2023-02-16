@@ -1,11 +1,5 @@
 .c-partners-section {
-  padding-top: 70px;
-  .h1 {
-    margin-bottom: 88px;
-    @media (max-width: 600px) {
-      margin-bottom: 52px;
-    }
-  }
+  
   &__title {
     font-size: 72px;
     color: var(--color-primary);
