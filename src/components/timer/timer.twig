@@ -1,0 +1,24 @@
+<div
+  id="js-timer"
+  class="timer"
+  role="timer"
+  aria-label="A timer, counting down to {{ eventName }}"
+  data-endtime="2023-08-28 17:00:00"
+>
+  <span class="timer__item" id="timer-days">
+    <span class="timer__value">{{ days }}</span>
+    <span class="timer__label timer__label-days">Dní</span>
+  </span>
+  <span class="timer__item" id="timer-hours">
+    <span class="timer__value">{{ hours }}</span>
+    <span class="timer__label">Hod</span>
+  </span>
+  <span class="timer__item" id="timer-minutes">
+    <span class="timer__value">{{ minutes }}</span>
+    <span class="timer__label">Min</span>
+  </span>
+  <span class="timer__item" id="timer-seconds">
+    <span class="timer__value">{{ seconds }}</span>
+    <span class="timer__label">Sec</span>
+  </span>
+</div>
