@@ -1,0 +1,48 @@
+.aside {
+  padding-top: 54px;
+  padding-bottom: 24px;
+  &__list {
+    margin-bottom: 45px;
+    li {
+      border-top: 1px solid var(--color-lines);
+      padding: 2px 0 0px;
+      display: block;
+      &:last-child {
+        border-bottom: 1px solid var(--color-lines);
+      }
+      .active {
+        color: var(--color-primary);
+        &::before {
+          background-image: url("../images/ico/arrow-list-primary.svg");
+        }
+      }
+      a {
+        color: #000;
+        position: relative;
+        padding-left: 68px;
+        font-family: bebas-neue, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 50px;
+        text-transform: uppercase;
+        text-decoration-color: transparent;
+        transition: all 0.3s;
+        &:hover {
+          text-decoration-color: inherit;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          transition: all 0.3s;
+          background-image: url("../images/ico/arrow-list.svg");
+          background-repeat: no-repeat;
+          width: 15px;
+          height: 11px;
+          background-size: contain;
+          left: 26px;
+          top: 0px;
+        }
+      }
+    }
+  }
+}

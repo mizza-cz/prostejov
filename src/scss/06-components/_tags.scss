@@ -5,7 +5,7 @@
 }
 .tag {
   text-transform: uppercase;
-  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-family: bebas-neue, sans-serif;
   font-weight: 700;
   font-size: 16px;
   display: block;
@@ -13,6 +13,12 @@
   letter-spacing: 0.5px;
   padding: 7px 10px 4px 10px;
   width: max-content;
+  text-decoration-color: transparent;
+  transition: all 0.3s;
+}
+a.tag:hover {
+  background: var(--color-dark);
+  color: var(--color-gold);
 }
 .tag-primary {
   color: var(--color-light);

@@ -2,3 +2,34 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+
+.table-responsive {
+  margin-bottom: 32px;
+  margin-top: 16px;
+  .table {
+    width: max-content;
+  }
+  td {
+    font-size: 14px;
+    line-height: 1.6;
+    border-bottom: 1px solid var(--color-lines);
+    text-align: left;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    &:first-child {
+      font-weight: 700;
+    }
+    a {
+      color: var(--color-primary);
+    }
+  }
+  th {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color-blue-grey);
+    border-bottom: 1px solid var(--color-lines);
+    font-family: bebas-neue, sans-serif;
+    text-align: left;
+  }
+}
