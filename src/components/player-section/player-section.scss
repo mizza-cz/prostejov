@@ -43,7 +43,7 @@
     font-size: 200px;
     line-height: 85%;
     font-weight: 700;
-    font-family: bebas-neue, sans-serif;
+    font-family: "BebasNeueBold";
     padding-left: 24px;
     padding-right: 24px;
     @include media-breakpoint-down(lg) {
@@ -71,7 +71,7 @@
       font-size: 16px;
       line-height: 1.625;
       font-weight: 700;
-      font-family: bebas-neue, sans-serif;
+      font-family: "BebasNeueBold";
       color: var(--color-light);
       span {
         display: block;

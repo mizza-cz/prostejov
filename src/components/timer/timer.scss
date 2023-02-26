@@ -5,8 +5,8 @@
   &__label {
     display: block;
     font-size: 16px;
-    font-family: bebas-neue, sans-serif;
-    font-weight: 400;
+    font-family: "BebasNeueBold";
+    font-weight: 700;
     line-height: 1.25;
     text-transform: uppercase;
     color: var(--color-dark);
@@ -16,14 +16,18 @@
     line-height: 1;
     font-size: 24px;
     display: block;
-    font-weight: 300;
     margin-bottom: 4px;
+    font-family: "BebasNeueBook";
   }
   &__item {
     text-align: center;
     margin-right: 13px;
     padding-right: 13px;
     position: relative;
+    &:last-child {
+      margin-right: 0;
+      padding-right: 0;
+    }
     &::after {
       content: ":";
       position: absolute;

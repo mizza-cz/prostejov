@@ -14,3 +14,19 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "BebasNeueBold";
+  font-display: swap;
+  src: url("../fonts/BebasNeue-Bold.woff2") format("woff2");
+  src: url("../fonts/BebasNeue-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BebasNeueBook";
+  font-display: swap;
+  src: url("../fonts/BebasNeue-Book.woff2") format("woff2");
+  src: url("../fonts/BebasNeue-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}

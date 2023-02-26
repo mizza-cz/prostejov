@@ -1,0 +1,168 @@
+.c-matches-section {
+  margin-bottom: 120px;
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 40px;
+  }
+  &__filtr {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-lines);
+    padding-left: 20px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: 54px;
+    @include media-breakpoint-down(md) {
+      flex-wrap: wrap;
+      height: auto;
+      padding-top: 16px;
+      padding-right: 20px;
+    }
+    ul {
+      display: flex;
+      padding-left: 60px;
+      height: 100%;
+      align-items: center;
+      @include media-breakpoint-down(md) {
+        padding-left: 4px;
+      }
+      li {
+        height: 100%;
+        display: block;
+        padding: 0 4px;
+      }
+      .active {
+        border-bottom: 2px solid var(--color-primary);
+      }
+      a {
+        font-family: "BebasNeueBold";
+        text-transform: uppercase;
+        display: block;
+        height: 100%;
+        padding: 0 8px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        font-size: 16px;
+        &:hover {
+          border-bottom: 2px solid var(--color-primary);
+        }
+      }
+    }
+    .select2 {
+      width: fit-content !important;
+      margin-left: auto;
+      @include media-breakpoint-down(md) {
+        width: 100% !important;
+        margin-bottom: 16px;
+        order: -1;
+      }
+    }
+    .select2-selection {
+      background-color: transparent;
+      border: none !important;
+      outline: none !important;
+      @include media-breakpoint-down(md) {
+        border: 1px solid var(--color-dark) !important;
+      }
+    }
+  }
+  &__top {
+    padding-top: 44px;
+    margin-bottom: 64px;
+    @media (max-width: 600px) {
+      margin-bottom: 52px;
+    }
+    h1 {
+      font-size: 40px;
+      color: var(--color-primary);
+      text-transform: uppercase;
+    }
+  }
+  &__links {
+    justify-content: flex-end;
+    display: flex;
+    li {
+      padding: 0 6px;
+    }
+    @include media-breakpoint-down(lg) {
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+  }
+  &__item {
+    border: 1px solid var(--color-lines);
+    padding: 20px 32px 20px 16px;
+    margin-bottom: 16px;
+    @include media-breakpoint-down(lg) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .tags {
+      margin-bottom: 8px;
+    }
+    .tag {
+      display: flex;
+      align-items: center;
+      height: auto;
+      padding-top: 11px;
+      padding-bottom: 6px;
+    }
+  }
+
+  &__teams {
+    padding-left: 36px;
+    @include media-breakpoint-down(lg) {
+      text-align: center;
+      padding-left: 0;
+      justify-content: center;
+    }
+    p {
+      text-transform: uppercase;
+      font-family: "BebasNeueBold";
+      font-size: 16px;
+      margin-bottom: 0;
+      line-height: 125%;
+    }
+    h3 {
+      text-transform: uppercase;
+    }
+  }
+  &__logos {
+    display: flex;
+    @include media-breakpoint-down(lg) {
+      justify-content: center;
+    }
+    svg,
+    img {
+      height: 64px;
+      padding: 4px;
+    }
+  }
+  &__score {
+    font-size: 48px;
+    font-family: "BebasNeueBold";
+    line-height: 1.083;
+    span {
+      font-weight: 700;
+      font-size: 28px;
+    }
+    a {
+      transition: all 0.3s;
+      color: var(--color-primary);
+    }
+    a:hover {
+      text-decoration-color: transparent;
+    }
+    @include media-breakpoint-down(lg) {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 8px;
+      div {
+        padding: 0 8px;
+      }
+    }
+  }
+}

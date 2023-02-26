@@ -1,4 +1,4 @@
-let timerItem = document.querySelector(".js-timer");
+let timerItem = document.querySelector(".timer");
 if (timerItem) {
   (function () {
     "use strict";

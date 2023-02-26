@@ -1,4 +1,4 @@
-.zapas {
+.match {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +28,10 @@
   &__datum {
     text-align: center;
     text-transform: uppercase;
-    font-family: bebas-neue, sans-serif;
+    font-family: "BebasNeueBold";
+    p {
+      color: var(--color-dark);
+    }
   }
   &__links {
     display: flex;
@@ -39,7 +42,7 @@
       margin: 0 8px;
       text-decoration-color: transparent;
       text-transform: capitalize;
-      font-family: "Helvetica", sans-serif;
+      font-family: "BebasNeueBold";
       font-size: 14px;
       padding-top: 10px;
       padding-bottom: 8px;
@@ -52,8 +55,8 @@
     align-items: center;
     margin-bottom: 30px;
     p {
-      color: #878495;
-      font-family: bebas-neue, sans-serif;
+      // color: #878495;
+      font-family: "BebasNeueBold";
       font-weight: 700;
       padding: 0 16px;
       margin-bottom: 0;
@@ -80,4 +83,7 @@
     display: block;
     color: var(--color-dark);
   }
+}
+.lose {
+  color: var(--color-primary);
 }
