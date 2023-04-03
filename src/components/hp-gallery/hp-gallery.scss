@@ -1,12 +1,8 @@
 .hp-gallery {
   overflow-x: auto;
-  height: 280px;
   display: flex;
   align-items: center;
   margin-top: -20px;
-  @include media-breakpoint-down(xl) {
-    height: 224px;
-  }
   &__inner {
     display: flex;
     width: max-content;

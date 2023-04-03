@@ -1,0 +1,14 @@
+.dark-mode.main-content {
+  background-color: #1a1a1a;
+  .partners{
+   background-color: var(--color-dark-grey);
+  }
+  .fanshop__item,
+  .hp-posts__info .h3,
+  .tag-grey {
+    color: #fff;
+  }
+}
+body .dark-mode {
+  color: #fff;
+}
