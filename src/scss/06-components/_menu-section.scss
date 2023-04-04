@@ -8,13 +8,65 @@
   @include media-breakpoint-down(sm) {
     padding-bottom: 0.5rem;
   }
-  .h1 {
-    margin-bottom: 20px;
+
+  &__label {
+    display: block;
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+  &__form {
+    flex-wrap: wrap;
+    .btn {
+      margin: 0 32px 0 8px;
+      display: block;
+      height: auto;
+      width: 80px;
+      @include media-breakpoint-down(sm) {
+        height: 34px;
+      }
+    }
+    label + label {
+      margin-left: 16px;
+    }
+    @include media-breakpoint-down(xxl) {
+      margin-left: 0;
+    }
+    @include media-breakpoint-down(sm) {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  &__btn {
+    @include media-breakpoint-down(xxl) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__links {
+    margin-left: -4px;
+    margin-right: -4px;
+    margin-right: 32px;
+    @include media-breakpoint-down(xxl) {
+      flex-wrap: wrap;
+    }
+    @include media-breakpoint-down(lg) {
+      .ms-8 {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+    li {
+      padding: 0 4px;
+      @include media-breakpoint-down(xxl) {
+        margin-bottom: 16px;
+      }
+    }
   }
   &__inner {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
     @include media-breakpoint-down(xxl) {
       flex-wrap: wrap;
     }
@@ -26,14 +78,11 @@
       flex-direction: column;
     }
   }
-
-  &__form {
-    @include media-breakpoint-down(sm) {
+  .h1 {
+    margin-right: 80px;
+    @include media-breakpoint-down(xxl) {
+      margin-bottom: 16px;
       width: 100%;
     }
-  }
-  &__label {
-    margin-bottom: 20px;
-    display: block;
   }
 }

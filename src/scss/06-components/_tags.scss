@@ -10,12 +10,17 @@
   font-size: 16px;
   display: block;
   line-height: 1.1;
-  letter-spacing: 0.5px;
-  padding: 7px 10px 4px 10px;
+  letter-spacing: 0.7px;
+  padding: 7px 12px 4px 12px;
   width: max-content;
   text-decoration-color: transparent;
   transition: all 0.3s;
+  outline: none;
+  border: none;
+  margin: 0;
+  height: auto;
 }
+button.tag:hover,
 a.tag:hover {
   background: var(--color-dark);
   color: var(--color-gold);
