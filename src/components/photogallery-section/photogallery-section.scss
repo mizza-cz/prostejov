@@ -14,27 +14,6 @@
 }
 
 .photogallery-section {
-  &__number {
-    position: absolute;
-    right: 24px;
-    top: 24px;
-    z-index: 3;
-    width: 40px;
-    height: 40px;
-    background-color: var(--color-gold);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    span {
-      position: relative;
-      font-weight: 700;
-      font-size: 16px;
-      color: var(--color-dark);
-      font-family: "BebasNeueBold";
-      line-height: initial;
-    }
-  }
   &__info {
     position: absolute;
     left: 0;

@@ -31,18 +31,16 @@
         data-googleSearch=""
         data-competition="1liga"
       ></div>
-      {% if title != "08.0_hp-dark" %} {% include
-      "@components/header/header.twig" %} {% else %} {% include
-      "@components/header/header-dark.twig" %} {% endif %}
+
+      {% if title == "08.0_hp-dark" %} {% include
+      "@components/header/header-dark.twig" %} {% else %} {% include
+      "@components/header/header.twig" %} {% endif %}
       <main class="main" aria-label="Hlavní obsah">
         {% block main %}{% endblock %}
       </main>
-
-      {% if title != "08.0_hp-dark" %}
-      {% include "@components/footer/footer.twig" %}
-      {% else %}
-      {% include "@components/footer/footer-dark.twig" %}
-      {% endif %}
+      {% if title == "08.0_hp-dark" %} {% include
+      "@components/footer/footer-dark.twig" %} {% else %} {% include
+      "@components/footer/footer.twig" %} {% endif %}
     </div>
     <script
       defer

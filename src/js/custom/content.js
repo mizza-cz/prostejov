@@ -40,3 +40,8 @@ function iframesWrap() {
     iframeWrap.appendChild(contentIframes[i]);
   }
 }
+
+const dark = document.querySelector(".dark-mode-2");
+if (dark) {
+  document.body.classList.add("dark-mode-3");
+}

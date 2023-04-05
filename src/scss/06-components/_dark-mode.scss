@@ -1,7 +1,7 @@
 .dark-mode.main-content {
   background-color: #1a1a1a;
-  .partners{
-   background-color: var(--color-dark-grey);
+  .partners {
+    background-color: var(--color-dark-grey);
   }
   .fanshop__item,
   .hp-posts__info .h3,
@@ -11,4 +11,18 @@
 }
 body .dark-mode {
   color: #fff;
+}
+.dark-mode-3 {
+  .header {
+    background-color: #1a1a1a;
+  }
+  .scoreboard__item {
+    background: #1a1a1a;
+  }
+  .scoreboard .slick-slide:nth-child(odd) .scoreboard__item {
+    background: hsla(0, 0%, 91.8%, 0.4);
+  }
+  .footer .navbar {
+    display: none;
+  }
 }
