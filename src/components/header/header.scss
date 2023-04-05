@@ -24,7 +24,7 @@
     right: 0;
     display: flex;
     align-items: center;
-    background-color: var(--color-primary);
+    background-color: #1a1a1a;
     width: fit-content;
     padding: 24px 16px 16px 20px;
     visibility: hidden;
@@ -59,7 +59,7 @@
     input {
       margin: 0;
       display: block;
-      background: #ee1c25;
+      background: #1a1a1a;
       border: 1px solid #d8d8d8;
       color: #fff;
       width: 185px;
@@ -79,6 +79,7 @@
       .header__form {
         visibility: visible;
         opacity: 1;
+        z-index: 10;
       }
     }
     &-img {

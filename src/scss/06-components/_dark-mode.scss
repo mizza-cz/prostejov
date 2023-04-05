@@ -15,6 +15,18 @@ body .dark-mode {
 .dark-mode-3 {
   .nav-link {
     font-size: 27px;
+    @media (max-width: 1440px) {
+      font-size: 22px;
+    }
+  }
+  .nav-item {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .header .social {
+    padding-left: 0;
+    @media (max-width: 1440px) {
+    }
   }
   .header {
     background-color: #1a1a1a;
