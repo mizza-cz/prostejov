@@ -2,9 +2,13 @@
   background-color: var(--color-dark);
   position: relative;
   .social {
+    position: absolute;
+    left: 0;
     @include media-breakpoint-down(xl) {
       justify-content: center;
       margin: 0 auto;
+      position: relative;
+      right: 0;
     }
   }
   .p2 {
@@ -75,9 +79,11 @@
     padding-bottom: 50px;
     max-width: 1060px;
     margin: 0 auto;
+    position: relative;
     @include media-breakpoint-down(xl) {
       padding-top: 80px;
       padding-bottom: 24px;
+      padding-inline: 20px;
     }
   }
   &__logo {
@@ -99,6 +105,8 @@
   }
 }
 #scrollToTopBtn {
+  position: absolute;
+  right: 0;
   border: none;
   background-color: transparent;
   outline: none;
