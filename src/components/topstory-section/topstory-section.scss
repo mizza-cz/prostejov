@@ -6,7 +6,7 @@
   }
   @include media-breakpoint-down(lg) {
     .slick-dots {
-      display: none;
+      display: none !important;
     }
   }
   .tags {

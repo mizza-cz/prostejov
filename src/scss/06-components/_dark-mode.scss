@@ -13,6 +13,9 @@ body .dark-mode {
   color: #fff;
 }
 .dark-mode-3 {
+  .nav-link {
+    font-size: 27px;
+  }
   .header {
     background-color: #1a1a1a;
   }
@@ -25,4 +28,14 @@ body .dark-mode {
   .footer .navbar {
     display: none;
   }
+}
+
+.dark-mode-3 .scoreboard__box {
+  border: 1px 0.5px solid var(--color-light);
+  @media (max-width: 768px) {
+    border: none;
+  }
+}
+.scoreboard.scoreboard-new .slick-slide:nth-child(odd) .scoreboard__item {
+  background: #1a1a1a;
 }

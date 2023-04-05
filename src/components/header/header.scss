@@ -71,6 +71,7 @@
   &__search {
     position: relative;
     padding-right: 36px;
+    text-decoration: none;
     @include media-breakpoint-down(xl) {
       display: none;
     }
@@ -84,7 +85,7 @@
       width: 28px;
       height: 28px;
       transition: all 0.3s;
-      cursor: pointer;
+      display: block;
       &:hover {
         transform: scale(1.1);
       }
@@ -436,7 +437,7 @@
 .c-header__opener.is-open {
   span {
     border-color: var(--color-primary);
-    background: var(--color-primary);
+    background: transparent;
   }
   span:before {
     transform: rotate(45deg);
