@@ -24,7 +24,7 @@ function tablesWrap() {
 
 // IFRAME youtube/google (wysiwyg editor) responsive
 function iframesWrap() {
-  var contentIframes = document.querySelectorAll(".o-content iframe"),
+  var contentIframes = document.querySelectorAll(".content iframe"),
     i;
 
   for (i = 0; i < contentIframes.length; ++i) {

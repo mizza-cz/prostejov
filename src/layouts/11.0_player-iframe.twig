@@ -1,0 +1,15 @@
+{% extends "@components/base/base.twig" %} {% set title = "11.0_player-iframe"
+%} {% block main %}
+<div class="container">
+  <div class="row g-10">
+    <div class="col-xl-8">
+      {% include "@components/player-section/player-section.twig" %} {% include
+      "@components/player-detail/player-detail-iframe.twig" %}
+    </div>
+    <div class="col-xl-4 d-xl-block d-none">
+      {% include "@components/aside/aside-player.twig" %}
+    </div>
+  </div>
+</div>
+{% include "@components/hp-gallery/hp-gallery.twig" %} {% include
+"@components/partners/partners.twig" %} {% endblock %}
