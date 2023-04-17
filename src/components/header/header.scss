@@ -298,26 +298,28 @@
   font-family: "BebasNeueBold";
   font-weight: 700;
   color: var(--color-light);
-  font-size: 22px;
+  font-size: 27px;
   line-height: normal;
   text-transform: uppercase;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
+  white-space: nowrap;
   @include media-breakpoint-down(xl) {
     text-align: right;
     padding-right: 24px;
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 16px;
   }
 }
+
 .nav-item {
   padding-top: 24px;
   padding-bottom: 19px;
   position: relative;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
   @include media-breakpoint-down(xl) {
     padding: 4px 0;
   }
