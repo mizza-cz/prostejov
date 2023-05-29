@@ -1,4 +1,8 @@
 .c-topstory-section {
+  .slick-prev {
+    display: none !important;
+  }
+
   @include media-breakpoint-down(xxl) {
     .container {
       padding: 0;
@@ -88,5 +92,21 @@
       font-size: 32px;
       line-height: 1.1;
     }
+  }
+}
+.topstory-section__btnnext {
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 28px;
+  height: 28px;
+  display: block;
+  svg {
+    width: 100%;
+    display: block;
+    height: 100%;
   }
 }

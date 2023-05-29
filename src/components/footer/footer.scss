@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--color-dark);
+  background-color: #1a1a1a;
   position: relative;
   .social {
     position: absolute;
@@ -113,7 +113,7 @@
   cursor: pointer;
   svg,
   path {
-    fill: var(--color-gold);
+    fill: var(--color-light);
   }
   &:hover {
     svg {

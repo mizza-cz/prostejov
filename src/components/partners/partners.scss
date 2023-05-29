@@ -4,6 +4,10 @@
   .container {
     max-width: 1920px;
   }
+  .slick-track {
+    display: flex;
+    align-items: center;
+  }
   .slick-arrow {
     display: none;
   }
