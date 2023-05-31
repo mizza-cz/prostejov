@@ -46,6 +46,5 @@
 }
 .hp-posts-section .row .col-xl-4.col-md-6:nth-child(-n + 3) {
   @include media-breakpoint-down(md) {
-    display: none;
   }
 }

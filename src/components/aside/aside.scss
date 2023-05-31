@@ -1,6 +1,10 @@
 .aside {
   padding-top: 54px;
   padding-bottom: 24px;
+  @include media-breakpoint-down(xl) {
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
   &__list {
     margin-bottom: 45px;
     li {
