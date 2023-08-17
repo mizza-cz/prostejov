@@ -2,6 +2,14 @@
   width: 100%;
   z-index: 30;
   background-color: var(--color-primary);
+  transition: all 0.3s;
+  &.fixed {
+    @include media-breakpoint-down(xl) {
+      position: fixed;
+      top: 0;
+      transition: all 0.3s;
+    }
+  }
   @include media-breakpoint-down(xl) {
     .header__form {
       display: block;
