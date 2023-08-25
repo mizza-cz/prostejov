@@ -35,7 +35,7 @@
   aspect-ratio: 1420/640;
   position: relative;
   @include media-breakpoint-down(md) {
-    min-height: 320px;
+    aspect-ratio: 600/600;
   }
   &::before {
     content: "";
@@ -48,7 +48,7 @@
     background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.995118) 100%
+      rgba(0, 0, 0, 0.6) 100%
     );
   }
   img {
