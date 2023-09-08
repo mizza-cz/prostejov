@@ -35,7 +35,7 @@
   aspect-ratio: 1420/640;
   position: relative;
   @include media-breakpoint-down(md) {
-    aspect-ratio: 600/600;
+    aspect-ratio: 600/360;
   }
   &::before {
     content: "";
