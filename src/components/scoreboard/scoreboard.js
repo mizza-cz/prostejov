@@ -1,5 +1,5 @@
 $(".js-scoreboard").slick({
-  initialSlide: 0,
+  initialSlide: 2,
   slidesToShow: 4,
   slidesToScroll: 1,
   nextArrow:
